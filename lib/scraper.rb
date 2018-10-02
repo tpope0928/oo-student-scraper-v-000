@@ -2,8 +2,6 @@ itemrequire 'open-uri'
 require 'pry'
 
 
-require 'open-uri'
-
 class Scraper
 
   def self.scrape_index_page(index_url)
