@@ -23,7 +23,7 @@ class Student
       self.send("#{atr}=", val)
     end
     self
-  end
+    end
   end
 
   def self.all
