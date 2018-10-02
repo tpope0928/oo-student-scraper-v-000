@@ -8,6 +8,7 @@ class Student
     student_hash.tap do |a, v|
       self.send("#{a}=", v)
     end
+    
   end
     
 
